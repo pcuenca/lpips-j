@@ -8,4 +8,4 @@ Only the essential features have been implemented. Our motivation is to support 
 
 It currently supports the `vgg16` backend, leveraging the implementation in [`flaxmodels`](https://github.com/matthias-wright/flaxmodels/blob/main/flaxmodels/vgg/vgg.py).
 
-Pre-trained weights for the network and the linear are downloaded from the [🤗 Hugging Face hub](https://huggingface.co/pcuenq/lpips-jax).
+Pre-trained weights for the network and the linear layers are downloaded from the [🤗 Hugging Face hub](https://huggingface.co/pcuenq/lpips-jax).
