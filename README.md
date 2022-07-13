@@ -9,3 +9,12 @@ Only the essential features have been implemented. Our motivation is to support 
 It currently supports the `vgg16` backend, leveraging the implementation in [`flaxmodels`](https://github.com/matthias-wright/flaxmodels/blob/main/flaxmodels/vgg/vgg.py).
 
 Pre-trained weights for the network and the linear layers are downloaded from the [🤗 Hugging Face hub](https://huggingface.co/pcuenq/lpips-jax).
+
+## Installation
+
+1. Install JAX for CUDA or TPU following the instructions at https://github.com/google/jax#installation.
+2. Install this package from the repository:
+   ```
+   pip install --upgrade git+https://github.com/pcuenca/lpips-j.git
+   ```
+
