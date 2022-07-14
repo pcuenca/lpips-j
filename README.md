@@ -13,8 +13,8 @@ Pre-trained weights for the network and the linear layers are downloaded from th
 ## Installation
 
 1. Install JAX for CUDA or TPU following the instructions at https://github.com/google/jax#installation.
-2. Install this package from the repository:
+2. Install this package:
    ```
-   pip install --upgrade git+https://github.com/pcuenca/lpips-j.git
+   pip install lpips-j
    ```
 
