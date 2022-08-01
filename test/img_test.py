@@ -17,6 +17,9 @@ torch.manual_seed(7667)
 x = PILToTensor()(Image.open("img8.jpg")).unsqueeze(0)
 y = PILToTensor()(Image.open("img8_edited.jpg")).unsqueeze(0)
 
+x = 2 * (x / 255.) - 1
+y = 2 * (y / 255.) - 1
+
 torch_lpips = taming_LPIPS()
 result_t = torch_lpips(x, y)
 print(result_t)
